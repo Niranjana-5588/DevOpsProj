@@ -136,8 +136,9 @@
             <!-- Used for integration tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.12</version>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.19.1</version>
+				<scope>test</scope>
                 <executions>
                     <!-- States that both integration-test and verify goals of the Failsafe Maven plugin are executed. -->
                     <execution>
